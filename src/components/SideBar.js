@@ -3,7 +3,9 @@ import React from 'react'
 function SideBar() {
   return (
     <div className=" hidden 
-    sm:block sm:w-1/3
+    sm:block sm:bg-red-400 sm:w-1/4 sm:h-screen
+    lg:bg-indigo-400 lg:w-1/5
+    xl:bg-indigo-600 xl:w-1/6
 
     
     ">

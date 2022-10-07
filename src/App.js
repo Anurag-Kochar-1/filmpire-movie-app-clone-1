@@ -7,14 +7,19 @@ import DiscoverPage from './pages/DiscoverPage';
 
 function App() {
   return (
-    <div className="bg-black w-full min-h-screen text-white
-                    flex flex-col items-start
-                    sm:flex-row sm:bg-gray-500 
+    <div className="bg-black w-screen min-h-screen text-white
+                    flex flex-col justify-between items-start
+                    sm:flex-row sm:justify-between sm:bg-gray-500 
     ">
   
       <SideBar />
 
-      <div className='flex flex-col'>
+      <div className='flex flex-col w-full min-h-screen bg-red-200
+      sm:bg-red-800 sm:w-3/4
+      lg:bg-blue-500 lg:w-4/5
+      xl:bg-green-700 xl:w-10/12
+      
+      '>
        <Navbar />
 
         <Routes>

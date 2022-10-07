@@ -3,8 +3,9 @@ import { BsSearch } from "react-icons/bs"
 
 function SearchBar() {
   return (
-    <div className="flex flex-row justify-center items-center w-3/4 h-4/5 bg-[#272727]
+    <div className="flex flex-row justify-center items-start w-3/4 h-4/5 bg-[#272727]
                     sm:w-2/5 
+                    
     ">
         <input 
             type="search"

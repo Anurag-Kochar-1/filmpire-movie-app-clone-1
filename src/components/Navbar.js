@@ -3,8 +3,8 @@ import SearchBar from './SearchBar'
 
 function Navbar() {
   return (
-    <div className='flex flex-row justify-between items-center bg-[#272727] w-screen h-1/5 px-5 py-3
-                    sm:h-14
+    <div className='flex flex-row justify-between items-start bg-[#272727] w-full h-14 px-5 py-3
+                    sm: 
     
     
     '>
