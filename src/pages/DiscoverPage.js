@@ -1,8 +1,21 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
+import MoviesList from '../components/MoviesList'
+
 
 function DiscoverPage() {
+
+
+  
+
+
+  
+
+
   return (
-    <div>DiscoverPage</div>
+    <div >
+      <MoviesList/>
+      
+    </div>
   )
 }
 
